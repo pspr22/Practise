@@ -14,8 +14,8 @@
         android:theme="@style/Theme.Practise1"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".splashScreen"
-            android:exported="true">
+            android:name=".splashoone"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,17 +23,22 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".splashScreen"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".recyclerview"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".ScrollView"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".GridView"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".WebView"
             android:exported="false" />
