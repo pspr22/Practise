@@ -27,7 +27,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
     ImageView image;
-    Button ok,change,page1,page2,page3,page4;
+    Button ok,change,page1,page2,page3,page4,page5,page6;
     TextView text,answer,question,colorchange,txtage,personName;
     EditText name;
     String num;
@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
         page2 = findViewById(R.id.page2);
         page3 = findViewById(R.id.page3);
         page4 = findViewById(R.id.page4);
+        page5 = findViewById(R.id.page5);
+        page6 = findViewById(R.id.page6);
         personName = findViewById(R.id.txtpersonName);
 
 
@@ -232,6 +234,27 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        page5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(getApplicationContext(),SendSms.class);
+                startActivity(intent4);
+                Toast.makeText(MainActivity.this, "went to send Sms", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        page6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent5 = new Intent(MainActivity.this,EmailActivity.class);
+                startActivity(intent5);
+                Toast.makeText(MainActivity.this, "went to send email", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+
+
         Intent intent = getIntent();
         String userName = intent.getStringExtra("keyword");
         personName.setText(userName);
@@ -251,7 +274,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-
         this.unregisterReceiver(br);
     }
 

@@ -36,7 +36,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:backgroundTint="@color/black"
-                        android:text="page1" />
+                        android:text="page1"
+                        android:textColor="@color/white" />
 
                     <Button
                         android:id="@+id/p2"
@@ -44,7 +45,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:backgroundTint="@color/black"
-                        android:text="page2" />
+                        android:text="page2"
+                        android:textColor="@color/white" />
 
                     <Button
                         android:id="@+id/p3"
@@ -52,7 +54,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:backgroundTint="@color/black"
-                        android:text="page3" />
+                        android:text="page3"
+                        android:textColor="@color/white" />
 
                     <Button
                         android:id="@+id/p4"
@@ -61,7 +64,8 @@
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:backgroundTint="@color/black"
-                        android:text="page4" />
+                        android:text="page4"
+                        android:textColor="@color/white" />
 
                     <Button
                         android:id="@+id/p5"
@@ -70,7 +74,8 @@
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:backgroundTint="@color/black"
-                        android:text="page5" />
+                        android:text="page5"
+                        android:textColor="@color/white" />
 
                     <Button
                         android:id="@+id/p6"
@@ -79,7 +84,8 @@
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:backgroundTint="@color/black"
-                        android:text="page6" />
+                        android:text="page6"
+                        android:textColor="@color/white" />
                 </LinearLayout>
             </HorizontalScrollView>
 
@@ -101,6 +107,7 @@
                 android:layout_marginTop="16dp"
                 android:backgroundTint="@color/black"
                 android:text="Go"
+                android:textColor="@color/white"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toBottomOf="@+id/etpersonName" />
 

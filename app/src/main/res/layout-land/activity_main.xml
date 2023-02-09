@@ -195,7 +195,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/black"
-                    android:text="page2" />
+                    android:text="page2"
+                    android:textColor="@color/white" />
 
                 <Button
                     android:id="@+id/page3"
@@ -203,7 +204,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/black"
-                    android:text="page3" />
+                    android:text="page3"
+                    android:textColor="@color/white" />
 
                 <Button
                     android:id="@+id/page4"
@@ -211,7 +213,26 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/black"
-                    android:text="page4" />
+                    android:text="page4"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/page5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black"
+                    android:text="page6"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/page6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black"
+                    android:text="page6"
+                    android:textColor="@color/white" />
             </LinearLayout>
 
             <TextView
